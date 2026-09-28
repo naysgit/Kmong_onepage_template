@@ -1,16 +1,47 @@
-# React + Vite
+# React Website Template
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React를 사용해 제작한 반응형 웹사이트 템플릿입니다.
 
-Currently, two official plugins are available:
+웹사이트 제작 서비스를 준비하면서 직접 구성한 템플릿으로,
+업종이나 목적에 따라 내용과 디자인을 수정할 수 있도록 기본적인 웹사이트 구조를 만들어 보았습니다.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Preview
+<img width="810" height="1821" alt="상세페이지1" src="https://github.com/user-attachments/assets/972a060c-392b-4f1b-8e5d-897843ddbd98" />
+<img width="810" height="1678" alt="상세페이지2" src="https://github.com/user-attachments/assets/67cf789d-9cb8-4966-9270-72f82f36746e" />
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## 사용 기술
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React
+* JavaScript
+* CSS
+* Vite
+* Lucide React
+
+## 구성
+
+* Header
+* Hero
+* Feature
+* Service
+* Portfolio
+* Process
+* Review
+* Contact
+* Footer
+
+각 영역을 컴포넌트로 나누어 구성했으며, 필요한 부분을 수정하거나 추가할 수 있도록 작성했습니다.
+
+## 주요 기능
+
+* PC / 태블릿 / 모바일 반응형 레이아웃
+* React 컴포넌트를 활용한 페이지 구성
+* 버튼, 카드, 메뉴 등 기본 UI 구현
+* 텍스트와 이미지 등을 수정하여 다양한 형태의 웹사이트로 활용 가능
+
+## 제작 목적
+
+웹사이트 제작 및 커스터마이징 서비스를 위한 기본 템플릿으로 제작했습니다.
+
+베이커리, 인테리어, 쇼핑몰 등 여러 업종에 적용할 수 있도록 전체적인 구조를 단순하게 구성하고, 콘텐츠를 쉽게 변경할 수 있도록 제작했습니다.
